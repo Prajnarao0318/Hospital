@@ -8,7 +8,7 @@ app.use(express.static("public"));
 
 const mongoose = require("mongoose");
 
-mongoose.connect("mongodb://127.0.0.1:27017/hospitaldb", { useNewUrlParser: true });
+mongoose.connect("mongodb+srv://prajnarao002:<prajnarao03>@cluster.f2lxtll.mongodb.net/hospitaldb", { useNewUrlParser: true });
 
 
 
